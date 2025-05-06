@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>RedRush - Boissons Spéciales</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>RedRush</h1>
+    <p>Trop bon, trop rouge, trop flash !</p>
+  </header>
+
+  <main>
+    <div class="product">
+      <img src="images/redrush-fraise.png" alt="RedRush Fraise">
+      <h2>RedRush Fraise</h2>
+      <p>Le goût original enrichi en sucre, avec de la fraise bien garnie, une explosion de fraîcheur à chaque gorgée.</p>
+      <p class="price">1,50€</p>
+      <a href="achat.html?produit=fraise" class="btn">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="images/redrush-fraise-cerise.png" alt="RedRush Fraise-Cerise">
+      <h2>RedRush Fraise-Cerise</h2>
+      <p>Une fusion fruitée entre la douceur de la fraise et l’intensité de la cerise. Un mélange audacieux, rouge et pétillant à souhait !</p>
+      <p class="price">2,00€</p>
+      <a href="achat.html?produit=fraise-cerise" class="btn">Acheter</a>
+    </div>
+  </main>
+</body>
+</html>
